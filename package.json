@@ -1,0 +1,14 @@
+{
+  "name": "titanium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "3.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
