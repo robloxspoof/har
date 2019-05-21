@@ -6,8 +6,6 @@ var htmlPath = path.join(__dirname, 'src');
 
 app.use(express.static(htmlPath));
 
-var server = app.listen(1234, function () {
-    var host = 'localhost';
-        var port = server.address().port;
-            console.log('listening on http://'+host+':'+port+'/');
-            });
+var server = app.listen(app.get('port'), function () {
+
+});
