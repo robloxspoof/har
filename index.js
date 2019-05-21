@@ -7,6 +7,9 @@ app.set('port', (process.env.PORT || 5000));
 
 app.use(express.static(__dirname + '/src'));
 
+app.get("/", (req, res) => {
+    res.send({ hello: "world" });
+    });
 
 // Listen for set port
 app.listen(app.get('port'), (err)=> {
